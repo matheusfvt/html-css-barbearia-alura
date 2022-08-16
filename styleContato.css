@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HEADER */
+.site-top {
+  background-color: #a8a7a8;
+  padding: 75px 0px;
+}
+
+.container-top {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1260px;
+}
+
+.site-top img {
+  max-width: 177px;
+  max-height: 250px;
+}
+
+.lista-top {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+}
+
+.lista-top ul{
+  display: flex;
+}
+
+.lista-top li {
+  margin-right: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.lista-top li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.lista-top li a:hover {
+  color: gold;
+}
+/*HEADER*/
+/*MAIN*/
+.info-container {
+  max-width: 50%;
+  margin: 40px 10%;
+  width: 940px;
+  min-width: 400px;
+}
+
+.form-info input,
+textarea {
+  width: 100%;
+  padding: 7px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 15px;
+  display: block;
+}
+
+.form-info label {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-info input {
+  height: 40px;
+}
+
+.form-info textarea {
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+}
+
+.form-contato {
+  margin-top: 30px;
+}
+
+.form-contato label {
+  font-size: 17px;
+}
+
+.form-contato label,
+input {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.form-select {
+  margin-top: 30px;
+}
+
+.form-select p,
+.form-contato p {
+  font-size: 18px;
+}
+
+.form-select input[id="receberEmail"],
+label[for="receberEmail"] {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.form-select select {
+  margin-top: 5px;
+}
+
+.enviarForm {
+  margin-top: 30px;
+  min-width: 400px;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: orange;
+  transition: 1.5s all;
+  cursor: pointer;
+}
+
+.enviarForm:hover {
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.tabela-horario {
+  margin-top: 60px;
+}
+
+.tabela-horario p {
+  margin: 10px 0;
+}
+
+.tabela-horario table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.tabela-horario thead {
+  background-color: gray;
+  color: white;
+}
+/*MAIN*/
+/*FOOTER*/
+.site-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(imagens/bg.jpg);
+}
+.footer-down {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-down p {
+  color: white;
+  font-size: 15px;
+}
+/*FOOTER*/
